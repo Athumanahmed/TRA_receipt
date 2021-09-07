@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+}
+
+.reciept-wrap{
+    width: 450px;
+    height: 640px;
+    box-shadow: 1px 1px 5px wheat;
+}
+
+.receipt-header{
+    text-align: center;
+    padding: 5px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.receipt-logo{
+    text-align: center;
+   margin: 0 30px;
+}
+
+.receipt-logo img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    position: relative;
+}
+.info-header{
+    font-weight: bold;
+
+}
+.company-info{
+    text-align: center;
+    border-top: 1px dotted black;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted black;
+
+}
+.info-mobile{
+    margin-top: 10px;
+    padding: 0 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .8rem;
+    font-weight:640;
+    
+}
+.info-mobile span{
+    font-weight: bold;
+}
+
+.info-TIN{
+    padding: 0 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .8rem; 
+    font-weight:640;
+}
+
+.info-TIN span{
+    font-weight: bold;
+}
+.info-serialno{
+    padding: 0 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .8rem; 
+    font-weight:640;
+}
+
+.info-serialno span{
+    font-weight: bold;
+}
+
+.info-VRN{
+    padding: 0 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .8rem; 
+    font-weight:640;
+}
+
+.info-VRN span{
+    font-weight: bold;
+}
+
+.info-UIN{
+    padding: 0 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .8rem; 
+    font-weight:640;
+}
+
+.info-UIN span{
+    font-weight: bold;
+}
+.info-TAX-OFFICE{
+    padding: 0 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .8rem; 
+    font-weight:640;
+    margin-bottom: 5px;
+}
+
+.info-TAX-OFFICE span{
+    font-weight: bold;
+}
+
+.receipt-customer{
+    margin-left: 10px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .75rem; 
+    font-weight:645;
+    border-bottom: 1px dotted black;
+}
+
+.receipt-customer span{
+    font-weight: bold;
+} 
+
+.receipt-no{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.no-right{
+    float: left;
+    margin-right: 240px;
+   
+}
+
+.no-left-div p{
+    margin-left: 60px;
+}
+
+table{
+    width: 100%;
+    margin-top: 5px;
+}
+td{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 3px;
+ 
+
+}
+
+th{
+    padding-bottom: 5px;
+ border-bottom: 1px dotted black;   
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: .85rem; 
+ font-weight:700;
+}
