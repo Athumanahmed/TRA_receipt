@@ -134,17 +134,19 @@
     font-size: 0.8rem;
     font-weight: 600;
     margin-top: 5px;
-    margin-left: 10px;
+    
+    display: flex;
+    flex-direction: row;
 }
 
 .no-right{
-    float: left;
+    
     margin-right: 240px;
    
 }
 
 .no-left-div p{
-    margin-left: 60px;
+    
 }
 
 table{
